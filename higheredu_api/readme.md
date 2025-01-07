@@ -66,13 +66,13 @@ Import the project and run `mvn clean install`. Once the build is successful, ru
   java -jar target/department-service.jar
 - **Student Service:**
 
-java -jar target/student-service.jar
+  java -jar target/student-service.jar
 - **Enrollment Service:**
 
-java -jar target/enrollment-service.jar
+  java -jar target/enrollment-service.jar
 - **Course Service:**
 
-java -jar target/course-service.jar
+  java -jar target/course-service.jar
 **Note:** All services use the H2 in-memory database, no additional database setup is required.
 
 ### Communication
@@ -81,11 +81,11 @@ The services communicate with each other using REST API calls through RestTempla
 #### Swagger Documentation
 Each service is integrated with Swagger for API documentation. The Swagger UI for each service can be accessed at:
 
-Department Service: http://localhost:8081/swagger-ui.html
-Student Service: http://localhost:8082/swagger-ui.html
-Enrollment Service: http://localhost:8083/swagger-ui/index.html#/
-Course Service: http://localhost:8084/swagger-ui/index.html#/
-HigherEduApplication (complete app including all services): http://localhost:8089/swagger-ui/index.html#/
+- Department Service: http://localhost:8081/swagger-ui.html
+- Student Service: http://localhost:8082/swagger-ui.html
+- Enrollment Service: http://localhost:8083/swagger-ui/index.html#/
+- Course Service: http://localhost:8084/swagger-ui/index.html#/
+- HigherEduApplication (complete app including all services): http://localhost:8089/swagger-ui/index.html#/
 
 ### Development
 This project is developed using Spring Boot, Hibernate, and the H2 in-memory database. Contributions and suggestions for the project are welcome. Please follow the standard Git workflow for contributing: fork the repository, create a feature branch, make changes, and submit a pull request.

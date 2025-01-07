@@ -64,17 +64,17 @@ Import the project and run `mvn clean install`. Once the build is successful, ru
 - **Department Service**:
   ```bash
   java -jar target/department-service.jar
-- **Student Service:**
-```bash
+- **Student Service**:
+
   java -jar target/student-service.jar
-- **Enrollment Service:**
-```bash
+- **Enrollment Service**:
+
   java -jar target/enrollment-service.jar
-- **Course Service:**
-```bash
+- **Course Service**:
+
   java -jar target/course-service.jar
 
--- **Note:** All services use the H2 in-memory database, no additional database setup is required.
+-- **Note**: All services use the H2 in-memory database, no additional database setup is required.
 
 ### Communication
 The services communicate with each other using REST API calls through RestTemplate. For example, the Student Service makes calls to the Department Service to retrieve department details for a student.
